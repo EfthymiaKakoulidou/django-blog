@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 DEBUG = False
 
 ALLOWED_HOSTS = ['8000-efthymiakako-djangoblog-m001ne6fp6i.ws-eu108.gitpod.io'
-,'shrouded-wave-73703-9a49540ff110.herokuapp.com/']
+,'shrouded-wave-73703-9a49540ff110.herokuapp.com']
 
 
 # Application definition
