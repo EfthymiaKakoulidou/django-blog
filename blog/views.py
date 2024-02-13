@@ -23,7 +23,7 @@ class PostList(generic.ListView):
 
     :template:`blog/index.html`
     """
-    queryset = Post.objects.filter(status=1)
+    queryset = Post.objects.filter(author=2)
     template_name = "blog/index.html"
     paginate_by = 6
 
